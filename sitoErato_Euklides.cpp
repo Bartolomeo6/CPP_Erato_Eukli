@@ -2,7 +2,13 @@
 
 using namespace std;
 
-// pierwiastek kwadratowy metodą babilońską
+/* **********************************************
+nazwa funkcji: squareRoot
+opis funkcji: liczy pierwiastek kwadratowy metodą babilońską
+parametry: s - liczba pierwiastkowana
+zwracany typ i opis: zwraca liczbę po użyciu pierwiastka kwadratowego typu integer (całkowita)
+autor: Bartosz Kucharzyszyn 000000000
+*********************************************** */
 
 int squareRoot(int s){
     int a = 1;
@@ -22,6 +28,14 @@ int squareRoot(int s){
     return s;
     
 }
+
+/* **********************************************
+nazwa funkcji: EratostenesSieve
+opis funkcji: podaje liczby pierwsze w zakresie 2-100
+parametry: brak
+zwracany typ i opis: nie zwraca typu (funkcja void)
+autor: Bartosz Kucharzyszyn 000000000
+*********************************************** */
 
 // sito Eratostenesa z wykorzystaniem tablicy 100-wartości boolean
 
@@ -59,6 +73,14 @@ void EratostenesSieve(){
     cout<<"\n\n";
     
 }
+
+/* **********************************************
+nazwa funkcji: NWD
+opis funkcji: sprawdza największy wspólny dzielnik dwóch liczb
+parametry: a,b - liczby całkowite
+zwracany typ i opis: zwraca liczbę, odpowiadającą najwyższemu wspólnemu dzielnikowi typu integer (całkowita)
+autor: Bartosz Kucharzyszyn 000000000
+*********************************************** */
 
 // algorytm Euklidesa na NWD
 
